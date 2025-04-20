@@ -49,11 +49,26 @@ header {
   list-style: none;
 }
 
-.header-box ul li a{
-  text-decoration: none;
-  padding: 10px 15px !important;
-  border-bottom: 1px  solid var(--tertiary-color);
+.header-box ul li{
+  padding: 10px 15px;
+  border-bottom: 1px solid var(--tertiary-color);
+}
+
+.header-box ul li:hover{
+  border-bottom: 1px solid var(--green3);
+}
+
+.header-box ul li button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: clamp(1rem, 2vw, 1.2rem);
   color: var(--white);
+}
+
+.header-box ul li button:hover{
+  color: var(--white);
+  font-weight: bold;
 }
 
 header nav a{

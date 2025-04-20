@@ -11,7 +11,7 @@
     <div class="header-box">
       <h1>NightZone</h1>
       <ul>
-        <li><a href="index.php">Inicio</a></li>
+        <li><button href="index.php">Inicio</button></li>
       </ul>
     </div>
 
